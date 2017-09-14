@@ -1,0 +1,628 @@
+2017/09/14 12:47:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+*********
+Emails sent
+*********
+!
+2017/09/14 12:48:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 12:49:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 12:50:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 12:51:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 12:52:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 12:53:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 12:54:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 12:55:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 12:56:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 12:57:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 12:58:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 12:59:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:00:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc,
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 64, in <module>
+    for url,title,time in yield_info(keyword,site):
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 14, in yield_info
+    soup = BeautifulSoup(request_page(keyword), 'lxml')
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 9, in request_page
+    page = requests.get(caixin_format.format(keyword),timeout =10)
+  File "/home/qianli2/anaconda2/lib/python2.7/site-packages/requests/api.py", line 55, in get
+    return request('get', url, **kwargs)
+  File "/home/qianli2/anaconda2/lib/python2.7/site-packages/requests/api.py", line 44, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/qianli2/anaconda2/lib/python2.7/site-packages/requests/sessions.py", line 456, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/qianli2/anaconda2/lib/python2.7/site-packages/requests/sessions.py", line 559, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/qianli2/anaconda2/lib/python2.7/site-packages/requests/adapters.py", line 384, in send
+    raise Timeout(e, request=request)
+requests.exceptions.Timeout: HTTPConnectionPool(host='search.caixin.com', port=80): Read timed out. (read timeout=10)
+2017/09/14 13:01:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:02:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:03:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:04:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:05:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:06:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:07:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:08:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:09:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:10:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:11:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:12:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:13:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:14:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:15:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:16:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:17:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:18:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:19:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:20:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:21:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:22:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:23:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:24:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:25:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:26:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:27:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:28:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:29:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:30:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:31:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:32:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:33:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:34:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:35:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:36:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:37:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:38:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:39:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币,
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 64, in <module>
+    for url,title,time in yield_info(keyword,site):
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 14, in yield_info
+    soup = BeautifulSoup(request_page(keyword), 'lxml')
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 9, in request_page
+    page = requests.get(caixin_format.format(keyword),timeout =10)
+  File "/home/qianli2/anaconda2/lib/python2.7/site-packages/requests/api.py", line 55, in get
+    return request('get', url, **kwargs)
+  File "/home/qianli2/anaconda2/lib/python2.7/site-packages/requests/api.py", line 44, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/qianli2/anaconda2/lib/python2.7/site-packages/requests/sessions.py", line 456, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/qianli2/anaconda2/lib/python2.7/site-packages/requests/sessions.py", line 559, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/qianli2/anaconda2/lib/python2.7/site-packages/requests/adapters.py", line 384, in send
+    raise Timeout(e, request=request)
+requests.exceptions.Timeout: HTTPConnectionPool(host='search.caixin.com', port=80): Read timed out. (read timeout=10)
+2017/09/14 13:40:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:41:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:42:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:43:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:44:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:45:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:46:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:47:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:48:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:49:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:50:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:51:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:52:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:53:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:54:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:55:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:56:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:57:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:58:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 13:59:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:00:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:01:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:02:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:03:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:04:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:05:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:06:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:07:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:08:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:09:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:10:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:11:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:12:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:13:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:14:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:15:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:16:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:17:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:18:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:19:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:20:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:21:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:22:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:23:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:24:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:25:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:26:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:27:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:28:01 Fetching caixin: 比特币,
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 64, in <module>
+    for url,title,time in yield_info(keyword,site):
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 14, in yield_info
+    soup = BeautifulSoup(request_page(keyword), 'lxml')
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 9, in request_page
+    page = requests.get(caixin_format.format(keyword),timeout =10)
+  File "/home/qianli2/anaconda2/lib/python2.7/site-packages/requests/api.py", line 55, in get
+    return request('get', url, **kwargs)
+  File "/home/qianli2/anaconda2/lib/python2.7/site-packages/requests/api.py", line 44, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/qianli2/anaconda2/lib/python2.7/site-packages/requests/sessions.py", line 456, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/qianli2/anaconda2/lib/python2.7/site-packages/requests/sessions.py", line 559, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/qianli2/anaconda2/lib/python2.7/site-packages/requests/adapters.py", line 384, in send
+    raise Timeout(e, request=request)
+requests.exceptions.Timeout: HTTPConnectionPool(host='search.caixin.com', port=80): Read timed out. (read timeout=10)
+2017/09/14 14:29:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:30:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:31:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:32:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:33:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:34:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:35:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:36:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:37:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:38:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:39:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:40:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:41:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:42:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:43:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:44:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:45:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:46:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:47:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:48:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:49:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:50:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:51:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:52:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:53:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:54:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:55:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:56:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:57:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:58:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 14:59:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:00:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:01:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:02:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:03:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:04:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:05:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:06:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:07:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:08:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:09:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:10:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:11:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:12:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:13:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:14:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:15:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:16:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:17:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:18:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:19:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:20:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:21:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:22:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:23:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:24:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:25:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:26:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:27:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:28:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:29:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:30:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:31:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:32:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:33:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:34:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:35:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:36:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:37:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:38:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:39:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:40:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:41:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:42:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:43:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:44:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:45:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:46:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:47:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:48:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:49:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:50:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:51:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:52:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:53:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:54:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:55:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:56:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:57:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:58:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 15:59:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 16:00:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 16:01:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 16:02:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 16:03:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 16:04:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 16:05:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 16:06:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 16:07:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 16:08:02 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+2017/09/14 16:09:01 Fetching caixin: 比特币, 莱特币, 以太坊, btc, bcc, eth, 数字货币, 虚拟货币, ICO, 
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 14
+    page =
+         ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 14
+    page =
+         ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format = 
+                  ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 10, in <module>
+    from site_analyze import *
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 7
+    remin_format =
+                 ^
+SyntaxError: invalid syntax
+2017/09/14 21:19:02 Fetching caixin. 
+2017/09/14 21:19:05 Fetching xinhua. 
+*********
+Emails sent
+*********
+2017/09/14 21:20:01 Fetching caixin. 
+2017/09/14 21:20:03 Fetching xinhua. 
+2017/09/14 21:21:01 Fetching caixin. 
+2017/09/14 21:21:03 Fetching xinhua. 
+2017/09/14 21:22:01 Fetching caixin. 
+2017/09/14 21:22:03 Fetching xinhua. 
+2017/09/14 21:23:02 Fetching caixin. 
+2017/09/14 21:23:04 Fetching xinhua. 
+2017/09/14 21:24:01 Fetching caixin. 
+2017/09/14 21:24:04 Fetching xinhua. 
+2017/09/14 21:25:01 Fetching caixin. 
+2017/09/14 21:25:03 Fetching xinhua. 
+2017/09/14 21:26:01 Fetching caixin. 
+2017/09/14 21:26:04 Fetching xinhua. 
+2017/09/14 21:27:01 Fetching caixin. 
+2017/09/14 21:27:08 Fetching xinhua. 
+2017/09/14 21:28:01 Fetching caixin. 
+2017/09/14 21:28:04 Fetching xinhua. 
+2017/09/14 21:29:01 Fetching caixin. 
+2017/09/14 21:29:04 Fetching xinhua. 
+2017/09/14 21:30:01 Fetching caixin. 
+2017/09/14 21:30:04 Fetching xinhua. 
+2017/09/14 21:31:01 Fetching caixin. 
+2017/09/14 21:31:03 Fetching xinhua. 
+2017/09/14 21:32:01 Fetching caixin. 
+2017/09/14 21:32:04 Fetching xinhua. 
+*********
+Emails sent
+*********
+2017/09/14 21:33:01 Fetching caixin. 
+2017/09/14 21:33:03 Fetching xinhua. 
+*********
+Emails sent
+*********
+2017/09/14 21:34:01 Fetching caixin. 
+2017/09/14 21:34:03 Fetching xinhua. 
+2017/09/14 21:35:01 Fetching caixin. 
+2017/09/14 21:35:03 Fetching xinhua. 
+2017/09/14 21:36:01 Fetching caixin. 
+2017/09/14 21:36:03 Fetching xinhua. 
+2017/09/14 21:37:01 Fetching caixin. 
+2017/09/14 21:37:03 Fetching xinhua. 
+2017/09/14 21:38:02 Fetching caixin. 
+2017/09/14 21:38:05 Fetching xinhua. 
+2017/09/14 21:39:01 Fetching caixin. 
+2017/09/14 21:39:03 Fetching xinhua. 
+2017/09/14 21:40:01 Fetching caixin. 
+2017/09/14 21:40:04 Fetching xinhua. 
+2017/09/14 21:41:01 Fetching caixin. 
+2017/09/14 21:41:03 Fetching xinhua. 
+2017/09/14 21:42:01 Fetching caixin. 
+2017/09/14 21:42:04 Fetching xinhua. 
+2017/09/14 21:43:01 Fetching caixin. 
+2017/09/14 21:43:04 Fetching xinhua. 
+2017/09/14 21:44:01 Fetching caixin. 
+2017/09/14 21:44:04 Fetching xinhua. 
+2017/09/14 21:45:01 Fetching caixin. 
+2017/09/14 21:45:03 Fetching xinhua. 
+2017/09/14 21:46:01 Fetching caixin. 
+2017/09/14 21:46:03 Fetching xinhua. 
+2017/09/14 21:47:01 Fetching caixin. 
+2017/09/14 21:47:03 Fetching xinhua. 
+2017/09/14 21:48:01 Fetching caixin. 
+2017/09/14 21:48:03 Fetching xinhua. 
+2017/09/14 21:49:01 Fetching caixin. 
+2017/09/14 21:49:06 Fetching xinhua. 
+2017/09/14 21:50:01 Fetching caixin. 
+2017/09/14 21:50:03 Fetching xinhua. 
+2017/09/14 21:51:02 Fetching caixin. 
+2017/09/14 21:51:04 Fetching xinhua. 
+2017/09/14 21:52:01 Fetching caixin. 
+2017/09/14 21:52:03 Fetching xinhua. 
+2017/09/14 21:53:01 Fetching caixin.
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 63, in <module>
+    for url,title,time in yield_info(keywords,site):
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 24, in yield_info
+    soup = BeautifulSoup(request_page(keyword,'caixin'), 'lxml')
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 12, in request_page
+    page = requests.get(caixin_format.format(keyword),timeout =10)
+  File "/home/qianli2/anaconda2/lib/python2.7/site-packages/requests/api.py", line 55, in get
+    return request('get', url, **kwargs)
+  File "/home/qianli2/anaconda2/lib/python2.7/site-packages/requests/api.py", line 44, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/qianli2/anaconda2/lib/python2.7/site-packages/requests/sessions.py", line 456, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/qianli2/anaconda2/lib/python2.7/site-packages/requests/sessions.py", line 559, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/qianli2/anaconda2/lib/python2.7/site-packages/requests/adapters.py", line 384, in send
+    raise Timeout(e, request=request)
+requests.exceptions.Timeout: HTTPConnectionPool(host='search.caixin.com', port=80): Read timed out. (read timeout=10)
+2017/09/14 21:54:01 Fetching caixin.
+Traceback (most recent call last):
+  File "/home/qianli2/GitRepoCollection/bitcoin/article_crawler.py", line 63, in <module>
+    for url,title,time in yield_info(keywords,site):
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 24, in yield_info
+    soup = BeautifulSoup(request_page(keyword,'caixin'), 'lxml')
+  File "/home/qianli2/GitRepoCollection/bitcoin/site_analyze.py", line 12, in request_page
+    page = requests.get(caixin_format.format(keyword),timeout =10)
+  File "/home/qianli2/anaconda2/lib/python2.7/site-packages/requests/api.py", line 55, in get
+    return request('get', url, **kwargs)
+  File "/home/qianli2/anaconda2/lib/python2.7/site-packages/requests/api.py", line 44, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/qianli2/anaconda2/lib/python2.7/site-packages/requests/sessions.py", line 456, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/qianli2/anaconda2/lib/python2.7/site-packages/requests/sessions.py", line 559, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/qianli2/anaconda2/lib/python2.7/site-packages/requests/adapters.py", line 375, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='search.caixin.com', port=80): Max retries exceeded with url: /search/search.jsp?keyword=%E6%AF%94%E7%89%B9%E5%B8%81&x=0&y=0 (Caused by <class 'socket.gaierror'>: [Errno -3] Temporary failure in name resolution)
